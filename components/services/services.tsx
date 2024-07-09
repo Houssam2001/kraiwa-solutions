@@ -7,15 +7,14 @@ export default function ServicesSection() {
             Key Features
           </h2>
           <h1 className="lg:text-7xl text-4xl md:text-5xl font-bold tracking-tight text-gray-900 text-center">
-            Enhanced
+          Innovative
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
-              Insurance Solutions
+             Digital Solutions
+
             </span>
           </h1>
           <p className="mt-6 text-md text-gray-600 max-w-lg text-center">
-            Discover the exceptional features of our insurance services designed
-            to streamline processes and provide comprehensive coverage for your
-            needs.
+          Discover the standout features of Kraiwa Solutions designed to elevate your digital presence and streamline your business processes.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -39,12 +38,10 @@ export default function ServicesSection() {
                     ></path>
                   </svg>
                 </div>
-                Customized Coverage Plans
+                Customized Service Offerings
               </dt>
               <dd className="mt-2 text-base leading-7 text-gray-600">
-                Tailor your insurance coverage to match your unique needs. Our
-                customizable plans ensure you only pay for the coverage that
-                matters most to you.
+              Tailor our services to meet your unique business needs. Our flexible solutions ensure you get exactly what you need to thrive in your industry.
               </dd>
             </div>
             <div className="relative pl-16">
@@ -66,12 +63,10 @@ export default function ServicesSection() {
                     ></path>
                   </svg>
                 </div>
-                Risk Assessment Expertise
+                Expert Project Execution
               </dt>
               <dd className="mt-2 text-base leading-7 text-gray-600">
-                Benefit from our cutting-edge risk assessment model, providing
-                accurate insights into potential risks and ensuring your
-                coverage aligns with your risk profile.
+              Benefit from our cutting-edge project management and execution expertise, ensuring your projects are delivered on time and within budget.
               </dd>
             </div>
             <div className="relative pl-16">
@@ -93,12 +88,10 @@ export default function ServicesSection() {
                     ></path>
                   </svg>
                 </div>
-                Cost-Efficient Premiums
+                Cost-Effective Strategies
               </dt>
               <dd className="mt-2 text-base leading-7 text-gray-600">
-                Experience cost-effective insurance solutions. We keep our
-                premiums competitive, ensuring you receive optimal coverage
-                without breaking the bank.
+              Experience cost-effective digital solutions. We offer competitive pricing to ensure you receive maximum value without compromising on quality.
               </dd>
             </div>
             <div className="relative pl-16">
@@ -120,14 +113,61 @@ export default function ServicesSection() {
                     ></path>
                   </svg>
                 </div>
-                24/7 Customer Support
+                24/7 Client Support
               </dt>
               <dd className="mt-2 text-base leading-7 text-gray-600">
-                Our dedicated support team is available around the clock to
-                assist you. Whether it&apos;s day or night, we&apos;re here to
-                address your insurance-related queries promptly.
+              Our dedicated support team is available around the clock to assist you. Whether it&apos;s day or night, we&apos;re here to address your inquiries and support your business needs promptly.
               </dd>
             </div>
+            <div className="relative pl-16">
+              <dt className="text-base font-semibold leading-7 text-gray-900">
+                <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    className="h-6 w-6 text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    ></path>
+                  </svg>
+                </div>
+                Comprehensive Case Studies
+              </dt>
+              <dd className="mt-2 text-base leading-7 text-gray-600">
+              Explore our detailed case studies showcasing our success stories and the tangible results we&apos;ve achieved for our clients.              </dd>
+            </div>
+            <div className="relative pl-16">
+              <dt className="text-base font-semibold leading-7 text-gray-900">
+                <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    className="h-6 w-6 text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                    ></path>
+                  </svg>
+                </div>
+                Secure and Reliable Solutions
+              </dt>
+              <dd className="mt-2 text-base leading-7 text-gray-600">
+              Trust in our commitment to security with robust measures to protect your data and ensure reliable performance of all our services.              </dd>
+            </div>
+            
           </dl>
         </div>
       </div>

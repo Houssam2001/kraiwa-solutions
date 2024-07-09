@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer(){
     return(
         
@@ -6,20 +8,21 @@ export default function Footer(){
   <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
     <div className="sm:col-span-2">
       <a href="/" aria-label="Go home" title="Company" className="inline-flex items-center">
-        <svg className="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
+        {/* <svg className="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
           <rect x="3" y="1" width="7" height="12"></rect>
           <rect x="3" y="17" width="7" height="6"></rect>
           <rect x="14" y="1" width="7" height="6"></rect>
           <rect x="14" y="11" width="7" height="12"></rect>
-        </svg>
-        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span>
+        </svg> */}
+        <Image height={10} width={200} src={"/logo.png"} />
+        {/* <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span> */}
       </a>
       <div className="mt-6 lg:max-w-sm">
         <p className="text-sm text-gray-800">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-        </p>
+        We Connect the world with our
+        modern Websites        </p>
         <p className="mt-4 text-sm text-gray-800">
-          Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          {/* Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. */}
         </p>
       </div>
     </div>
@@ -27,11 +30,11 @@ export default function Footer(){
       <p className="text-base font-bold tracking-wide text-gray-900">Contacts</p>
       <div className="flex">
         <p className="mr-1 text-gray-800">Phone:</p>
-        <a href="tel:850-123-5021" aria-label="Our phone" title="Our phone" className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">850-123-5021</a>
+        <a href="tel:+1 571 245 9013" aria-label="Our phone" title="Our phone" className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">+1 571 245 9013        </a>
       </div>
       <div className="flex">
         <p className="mr-1 text-gray-800">Email:</p>
-        <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">info@lorem.mail</a>
+        <a href="mailto:info@kraiwa.com" aria-label="Our email" title="Our email" className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">info@kraiwa.com</a>
       </div>
       <div className="flex">
         <p className="mr-1 text-gray-800">Address:</p>

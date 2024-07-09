@@ -44,15 +44,15 @@ export default function Contact() {
                   stroke-linecap="round"
                 ></path>
               </svg>
-              <span className="relative">Your True Potential</span>
+              <span className="relative">Discover Your True Potential</span>
             </span>
           </p>
           <p className="max-w-3xl mt-5 mx-auto text-xl text-gray-500 dark:text-gray-300">
-            Take the leap and unleash your capabilities. Experience one week of
-            unlimited access on us and witness the transformation.
+          Take the leap and unleash your capabilities.
+          Experience with our services that make you get the high value.
           </p>
           <a
-            href="#"
+            href="/contact"
             className="inline-block px-6 py-3 mt-8 bg-blue-600 dark:bg-blue-500 text-white font-semibold rounded hover:bg-blue-700 dark:hover:bg-blue-600"
           >
             Get Started
