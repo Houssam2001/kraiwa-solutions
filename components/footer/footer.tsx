@@ -14,7 +14,7 @@ export default function Footer(){
           <rect x="14" y="1" width="7" height="6"></rect>
           <rect x="14" y="11" width="7" height="12"></rect>
         </svg> */}
-        <Image height={10} width={200} src={"/logo.png"} />
+        <Image alt="" height={10} width={200} src={"/logo.png"} />
         {/* <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span> */}
       </a>
       <div className="mt-6 lg:max-w-sm">
