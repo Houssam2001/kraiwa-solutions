@@ -1,7 +1,7 @@
 'use client'
+import { projects } from '@/utils/projects';
 import { useParams } from 'next/navigation';
 import React, { useState, useEffect } from 'react';
-import { projects } from '../page';
 
 const ProjectDetails = () => {
   const { id } = useParams();
