@@ -14,7 +14,6 @@ export default function Home() {
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
        <main >
       {/* <Header/> */}
-      <AuroraBackground>
         <div className="sm:mt-16  mt-32 z-30">
            <Hero/>
 
@@ -25,7 +24,6 @@ export default function Home() {
       <Contact/>
         </div>
      
-      </AuroraBackground>
       {/* <Footer/> */}
      </main>
     
